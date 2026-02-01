@@ -14,3 +14,74 @@
     display: flex;
     align-items: center;
 }
+.vp-logo {
+    width: 10rem;
+}
+
+.dark .vp-logo.light {
+    display: none;
+}
+
+:root:not(.dark) .vp-logo.dark {
+    display: none;
+}
+.partner-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 3rem;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.partner-grid > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vp-logo {
+    height: 3.5rem;
+    width: auto;
+    max-width: 12rem;
+    object-fit: contain;
+    opacity: 0.85;
+    transition: opacity .2s ease, transform .2s ease;
+}
+
+/* theme switching */
+.dark .vp-logo.light {
+    display: none;
+}
+
+:root:not(.dark) .vp-logo.dark {
+    display: none;
+}
+.partner-grid > div {
+    filter: grayscale(100%);
+    transition: filter .2s ease, transform .2s ease;
+}
+
+.partner-grid > div:hover {
+    filter: grayscale(0%);
+    transform: translateY(-2px);
+}
+.partner-grid {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 4rem;
+}
+.partner-divider {
+    margin: 5rem 0 3rem;
+    border: none;
+    height: 1px;
+    background: linear-gradient(
+            to right,
+            transparent,
+            var(--vp-c-divider),
+            transparent
+    );
+}
+.vp-logo.idlab {
+    transform: scale(2);
+}
