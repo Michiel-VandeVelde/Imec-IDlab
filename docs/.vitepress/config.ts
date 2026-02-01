@@ -33,22 +33,22 @@ export default defineConfig({
         items: [
           { text: 'Welcome', link: '/introduction' },
           { text: 'Overview', link: '/overview' },
-          { text: 'Introduction to IDLab', link: '/about' }
+          { text: 'Introduction to IDLab', link: '/about/' }  // Changed to /about/
         ]
       },
       {
         text: 'Research',
         collapsed: true,
         items: [
-          { text: 'Research Overview', link: '/research' },
-          { text: 'Simpl', link: '/research/Simpl' }
+          { text: 'Research Overview', link: '/research/' },  // Changed to /research/
+          { text: 'Simpl', link: '/research/Simpl/' }         // Changed to /research/Simpl/
         ]
       },
       {
         text: 'Logs',
         collapsed: true,
         items: [
-          { text: 'Activity Logs', link: '/logs' },
+          { text: 'Activity Logs', link: '/logs/' },          // Changed to /logs/
           { text: '01-02-2026', link: '/logs/01-02-2026' }
         ]
       },
