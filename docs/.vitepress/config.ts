@@ -7,7 +7,9 @@ export default defineConfig({
 
   description:
       'This repository contains all documentation for my internship at IMEC–IDLab, supporting research, experimentation, and technical development.',
-
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg', href: '/favicon.svg' }]
+  ],
   themeConfig: {
     logo: {
       light: '/imec-black-on-white.svg',
