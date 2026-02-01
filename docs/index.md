@@ -4,7 +4,7 @@ layout: home
 hero:
   name: Internship at IDLab (Imec – Ghent University)
   text: Michiel Van de Velde
-  tagline: This website contains all documentation for my internship at IMEC–IDLab, supporting research, Activity logs,Bibliography and technical development.
+  tagline: This website contains all documentation for my internship at IMEC–IDLab, supporting research, activity logs, bibliography and technical development.
   actions:
     - theme: brand
       text: See the work

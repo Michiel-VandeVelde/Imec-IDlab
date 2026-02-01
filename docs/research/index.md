@@ -3,7 +3,7 @@ prev:
   text: Overview
   link: /overview
 next:
-  text: Simpl
+  text: Simpl FOSDEM 2026
   link: /research/Simpl
 ---
 
