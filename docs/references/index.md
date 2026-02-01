@@ -10,3 +10,6 @@
 
 **[4]** European Commission, “SIMPL Open – Orchestration Platform (Dagster dev local),” *code.europa.eu GitLab Repository*, Jan. 2026. [Online]. Available: [https://code.europa.eu/simpl/simpl-open/development/orchestration-platform/dagster-dev-local/-/tree/develop?ref_type=heads](https://code.europa.eu/simpl/simpl-open/development/orchestration-platform/dagster-dev-local/-/tree/develop?ref_type=heads)
 
+**[5]** V. Staveris, “Simpl: Cloud-to-edge federations empowering EU data spaces,” presented at FOSDEM 2026, Brussels, Belgium, Feb. 2026, Cloud and Software Unit – DG CNECT, European Commission.
+
+**[6]** V. Staveris, Simpl: Cloud-to-edge federations empowering EU data spaces, FOSDEM 2026 slide deck, European Commission (DG CNECT), 2026.
