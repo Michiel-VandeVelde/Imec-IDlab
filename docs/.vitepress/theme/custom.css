@@ -85,3 +85,52 @@
 .vp-logo.idlab {
     transform: scale(2);
 }
+.partner-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.partner-link:hover .vp-logo {
+    opacity: 1;
+}
+
+.partner-link:focus-visible {
+    outline: 2px solid var(--vp-c-brand);
+    outline-offset: 4px;
+    border-radius: 6px;
+}
+
+.overview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.overview-card {
+    display: block;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: var(--vp-c-bg-soft);
+    border: 1px solid var(--vp-c-divider);
+    text-decoration: none;
+    color: inherit;
+    transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.overview-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+.overview-card h3 {
+    margin: 0 0 .5rem;
+    font-size: 1.25rem;
+    color: var(--vp-c-text-1);
+}
+
+.overview-card p {
+    margin: 0;
+    color: var(--vp-c-text-2);
+}
