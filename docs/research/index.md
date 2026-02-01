@@ -1,10 +1,12 @@
-Overview of all the research done.
-
 ---
 prev:
-text: Overview
-link: /overview
+  text: Overview
+  link: /overview
 next:
-text: Simpl
-link: /research/Simpl
+  text: Simpl
+  link: /research/Simpl
 ---
+
+# Research
+
+Overview of all the research done.
