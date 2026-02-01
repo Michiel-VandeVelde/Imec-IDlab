@@ -2,14 +2,14 @@
 layout: home
 
 hero:
-  name: VitePress
-  text: Vite & Vue powered static site generator.
-  tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
+  name: IMEC–IDLab
+  text: Michiel Van de Velde
+  tagline: This website contains all documentation for my internship at IMEC–IDLab, supporting research, experimentation, and technical development.
   actions:
     - theme: brand
-      text: Get Started
-      link: /example
+      text: Project Overview
+      link: /introduction/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/vuejs/vitepress
+      link: https://github.com/Michiel-VandeVelde/Imec-IDlab
 ---
