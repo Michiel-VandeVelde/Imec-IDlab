@@ -8,7 +8,8 @@ export default defineConfig({
   description:
       'This repository contains all documentation for my internship at IMEC–IDLab, supporting research, experimentation, and technical development.',
   head: [
-    ['link', { rel: 'icon', type: 'image/svg', href: '/favicon.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+
   ],
   themeConfig: {
     logo: {
