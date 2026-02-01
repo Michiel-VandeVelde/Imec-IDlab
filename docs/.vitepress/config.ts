@@ -5,7 +5,6 @@ export default defineConfig({
   lang: 'en-GB',
   title: 'Imec–IDLab',
 
-
   description:
       'This repository contains all documentation for my internship at IMEC–IDLab, supporting research, experimentation, and technical development.',
 
@@ -32,7 +31,7 @@ export default defineConfig({
         text: 'Getting Started',
         collapsed: false,
         items: [
-          { text: 'Welcome', link: 'introduction'},
+          { text: 'Welcome', link: '/introduction' },
           { text: 'Overview', link: '/overview' },
           { text: 'Introduction to IDLab', link: '/about' }
         ]
@@ -42,7 +41,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Research Overview', link: '/research' },
-          { text: 'Simpl', link: 'research/Simpl' }
+          { text: 'Simpl', link: '/research/Simpl' }
         ]
       },
       {
@@ -50,7 +49,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Activity Logs', link: '/logs' },
-          { text: '01-02-2026', link: '/logs/01-02-2026'}
+          { text: '01-02-2026', link: '/logs/01-02-2026' }
         ]
       },
       {
