@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  base: '/Imec-IDlab/',
+  base: '/',
   lang: 'en-GB',
   title: 'Imec–IDLab',
 
