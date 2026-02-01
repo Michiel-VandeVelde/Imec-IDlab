@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/Imec-IDlab/',
   lang: 'en-GB',
   title: 'Imec–IDLab',
+
   description:
       'This repository contains all documentation for my internship at IMEC–IDLab, supporting research, experimentation, and technical development.',
 
