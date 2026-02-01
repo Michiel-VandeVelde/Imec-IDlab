@@ -1,35 +1,35 @@
-import { defineConfig } from 'vitepress';
+import { defineConfig } from 'vitepress'
 
-// refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
-  lang: 'en-US',
-  title: 'Imec-IDlab',
-  description: 'This website contains all documentation for my internship at IMEC–IDLab, supporting research, experimentation, and technical development. ',
+  lang: 'en-GB',
+  title: 'Imec–IDLab',
+  description:
+      'This repository contains all documentation for my internship at IMEC–IDLab, supporting research, experimentation, and technical development.',
 
   themeConfig: {
+    logo: {
+      light: '/imec-black-on-white.svg',
+      dark: '/imec-white-on-black.png'
+    },
+
     nav: [
+      { text: 'Home', link: '/' },
       { text: 'Introduction', link: '/introduction' },
 
-      // {
-      //   text: 'Dropdown Menu',
-      //   items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' },
-      //   ],
-      // },
-
-      // ...
     ],
 
     sidebar: [
       {
-        // text: 'Guide',
+        text: 'Getting Started',
         items: [
           { text: 'Introduction', link: '/introduction' },
-          // ...
-        ],
+          { text: 'Overview', link: '/overview' }
+        ]
       },
     ],
-  },
-});
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/Michiel-VandeVelde/Imec-IDlab' }
+    ]
+  }
+})

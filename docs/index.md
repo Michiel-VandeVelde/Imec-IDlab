@@ -7,7 +7,7 @@ hero:
   tagline: This website contains all documentation for my internship at IMEC–IDLab, supporting research, experimentation, and technical development.
   actions:
     - theme: brand
-      text: Project Overview
+      text: Overview
       link: /introduction/
     - theme: alt
       text: View on GitHub
