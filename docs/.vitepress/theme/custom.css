@@ -134,3 +134,19 @@
     margin: 0;
     color: var(--vp-c-text-2);
 }
+.overview-card p {
+    text-decoration: none;
+    color: var(--vp-c-text-2);
+}
+.overview-card h3 {
+    text-decoration: none;
+    color: var(--vp-c-text-1);
+}
+.overview-card {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.overview-card * {
+    text-decoration: none !important;
+}
