@@ -13,8 +13,8 @@ export default defineConfig({
   ],
   themeConfig: {
     logo: {
-      light: '/IDlab-black-on-white.png',
-      dark: '/IDlab-white-on-black.png'
+      light: '/logos/IDlab-black-on-white.png',
+      dark: '/logos/IDlab-white-on-black.png'
     },
 
     nav: [
